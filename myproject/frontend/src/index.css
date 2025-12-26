@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #d32f2f; /* Темно-красный текст */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Цветовая палитра */
+:root {
+  --primary-bg: #ff8a80; /* Ярко-розовый */
+  --secondary-bg: #ffcdd2; /* Светло-розовый */
+  --accent: #f44336; /* Красный */
+  --dark-accent: #d32f2f; /* Темно-красный */
+  --white: #ffffff;
+}
+
+/* Стили для звездочек */
+.star {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 4rem;
+  z-index: -1;
+}
+
+/* Плавные переходы */
+* {
+  transition: all 0.3s ease;
+}

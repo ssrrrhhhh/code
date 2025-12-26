@@ -1,0 +1,16 @@
+.about-us .card {
+  background-color: #ff8a80;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.about-us .card h6 {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.about-us .card p {
+  color: #d32f2f;
+}

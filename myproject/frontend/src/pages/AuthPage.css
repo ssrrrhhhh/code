@@ -1,0 +1,43 @@
+.auth-page {
+  background-color: #ffcdd2;
+  padding: 4rem 0;
+}
+
+.auth-page .MuiTabs-root {
+  background-color: #ffcdd2;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.auth-page .MuiTab-root {
+  color: #d32f2f;
+  font-weight: bold;
+}
+
+.auth-page .MuiTab-root.Mui-selected {
+  color: #ffffff;
+  background-color: #f44336;
+}
+
+.auth-page .MuiPaper-root {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.auth-page .MuiTextField-root {
+  margin-bottom: 1rem;
+}
+
+.auth-page .MuiButton-root {
+  background-color: #f44336;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 0;
+  border-radius: 1rem;
+}
+
+.auth-page .MuiButton-root:hover {
+  background-color: #d32f2f;
+}
